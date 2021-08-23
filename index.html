@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Homework</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="#">Web<span>Studio</span></a>
+      <a href="#" class="link-logo">Web<span class="span">Studio</span></a>
       <nav>
         <li class="menu">
           <a href="./index.html" class="menu-link">Студия</a>
@@ -17,46 +24,52 @@
         <li class="menu">
           <a href="./portfolio.html" class="menu-link">Портфолио</a>
         </li>
-        <li class="menu">Контакты</li>
+        <li class="menu"><a href="#" class="menu-link">Контакты</a></li>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="adres-link">
+          <a href="mailto:info@devstudio.com" class="adres-link1"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="adres-link">
+          <a href="tel:+380961111111" class="adres-link1">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <section class="heading">
         <!--Заголовок-->
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <input type="button" value=" Заказать услугу " />
+        <h1 class="headerh1">Эффективные решения для вашего бизнеса</h1>
+        <input type="button" class="button-header" value=" Заказать услугу " />
       </section>
       <section class="values">
         <!--наши ценности-->
         <ul class="values-item">
           <li class="values-list">
-            <p>Внимание к деталям</p>
-            <p>
+            <p class="text1">Внимание к деталям</p>
+            <p class="text2">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="values-list">
-            <p>Пунктуальность</p>
-            <p>
+            <p class="text1">Пунктуальность</p>
+            <p class="text2">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="values-list">
-            <p>Планирование</p>
-            <p>
+            <p class="text1">Планирование</p>
+            <p class="text2">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="values-list">
-            <p>Современные технологии</p>
-            <p>
+            <p class="text1">Современные технологии</p>
+            <p class="text2">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -96,8 +109,8 @@
                 width="300px"
               />
               <figcaption>
-                <p>Игорь Демьяненко</p>
-                <p>Product Designer</p>
+                <p class="nametext">Игорь Демьяненко</p>
+                <p class="professionaltext">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -109,8 +122,8 @@
                 width="300px"
               />
               <figcaption>
-                <p>Ольга Репина</p>
-                <p>Frontend Developer</p>
+                <p class="nametext">Ольга Репина</p>
+                <p class="professionaltext">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -122,8 +135,8 @@
                 width="300px"
               />
               <figcaption>
-                <p>Николай Тарасов</p>
-                <p>Marketing</p>
+                <p class="nametext">Николай Тарасов</p>
+                <p class="professionaltext">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -135,8 +148,8 @@
                 width="300px"
               />
               <figcaption>
-                <p>Михаил Ермаков</p>
-                <p>UI Designer</p>
+                <p class="nametext">Михаил Ермаков</p>
+                <p class="professionaltext">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -144,14 +157,28 @@
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <a href="#">Web<span>Studio</span></a>
-        </li>
-        <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="link-logo1"
+              >Web<span class="span1">Studio</span></a
+            >
+          </li>
+          <li class="adres-link">
+            <address>г. Киев, пр-т Леси Украинки, 26</address>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="adres-link2"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="adres-link2"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
