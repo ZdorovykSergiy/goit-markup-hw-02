@@ -84,6 +84,10 @@ address {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.blue {
+  color: var(--main-bg-color);
+}
 .button-header {
   font-family: Roboto;
   font-style: normal;
@@ -95,6 +99,12 @@ address {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.button-header:hover,
+.button-header:active,
+.button-header:focus {
+  background-color: rgba(24, 140, 232, 1);
 }
 
 .value {
@@ -149,7 +159,9 @@ address {
 
   color: #212121;
 }
-
+.teams {
+  background: #f5f4fa;
+}
 .professionaltext {
   font-family: Roboto;
   font-style: normal;
